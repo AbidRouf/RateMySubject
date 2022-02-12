@@ -12,13 +12,13 @@ const Testimonials = () => {
             <h1 className="section__description--header">
             Choosing a course just got <span className="purple"> easier</span></h1>
             <h2 className="section__description--para">
-            It’s not just about finding the best course for you, it's figuring out the ones to avoid. Read student reviews and testimonies for all courses that you can study.
+            Its not just about finding the best course for you, its figuring out the ones to avoid. Read student reviews and testimonies for all courses that you can study.
             </h2>
 
           </div>
 
           <figure className="testimonial__right">
-            <img src="/assets/Laptop.svg" className='testimonial__img' />
+            <img src="/assets/Laptop.svg" className="testimonial__img" />
           </figure>
 
         </div>

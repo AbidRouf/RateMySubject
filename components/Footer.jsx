@@ -7,12 +7,12 @@ const Footer = ({ toggleModal }) => {
         <div className="row row__column">
 
           <div className="footer__list">
-            <a href="/" className="footer__link">
+            <Link href="/" className="footer__link">
               Home
-            </a>
-            <a href="#" className="footer__link">
+            </Link>
+            <Link href="#" className="footer__link">
               About Us
-            </a>
+            </Link>
           </div>
           <div className="footer__copyright">Copyright &copy; 2021 RateMySubject</div>
         </div>
