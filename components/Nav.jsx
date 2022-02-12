@@ -19,33 +19,33 @@ const Nav = () => {
                     <ul className="nav__row">
 
                         <li className="nav__link ">
-                            <a href="/Options" className="
+                            <Link href="/Options" className="
                             link__hover-effect
                             link__hover-effect--purple
-                            ">GCSE</a>
+                            ">GCSE</Link>
                         </li>
 
                         <li className="nav__link">
-                            <a href="/Options" className="
+                            <Link href="/Options" className="
                             link__hover-effect
                             link__hover-effect--purple
-                            ">A-Level</a>
+                            ">A-Level</Link>
                         </li>
 
                         <li className="nav__link">
-                            <a href="/Options" className="
+                            <Link href="/Options" className="
                             link__hover-effect
                             link__hover-effect--purple
-                            ">University</a>
+                            ">University</Link>
                         </li>
 
                     </ul>
 
                     <div className="icons">
                         <li className="icon click" /*onClick= hrefggleContrast()}*/>
-                            <a href="#">
+                            <Link href="#">
                                 <FaAdjust />
-                            </a>
+                            </Link>
                         </li>
 
                     {session ? (
