@@ -9,7 +9,7 @@ export function signIn({ providers }) {
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
           <div className="signin__container">
-            <img src="/assets/RateMySubject.svg" className="signin__logo" />
+            <img src="/assets/RateMySubject.svg" className="signin__logo" alt=""/>
             <button className="btn signin__btn" onClick={() => SignIntoProvider(provider.id, { callbackUrl: '/' })}>
               Sign in with {provider.name}
             </button>
