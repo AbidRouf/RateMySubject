@@ -36,13 +36,13 @@ const Options = () => {
                             <h3 className="option__subtitle">A-Level</h3>
 
                             <li className="option__list">
-                                <Link href="/" className="
+                                <Link href="/Maths" className="
                                 link__hover-effect
                                 link__hover-effect--purple
                                 ">Maths</Link>
                             </li>
                             <li className="option__list">
-                                <Link href="/" className="
+                                <Link href="/English" className="
                                 link__hover-effect
                                 link__hover-effect--purple
                                 ">English</Link>
@@ -54,13 +54,13 @@ const Options = () => {
                             <h3 className="option__subtitle">University</h3>
 
                             <li className="option__list">
-                                <Link href="/" className="
+                                <Link href="/Computer Science with Business" className="
                                 link__hover-effect
                                 link__hover-effect--purple
                                 ">Computer Science with Business</Link>
                             </li>
                             <li className="option__list">
-                                <Link href="/" className="
+                                <Link href="/Mechanical Engineering" className="
                                 link__hover-effect
                                 link__hover-effect--purple
                                 ">Mechanical Engineering</Link>
