@@ -873,8 +873,9 @@ textarea:focus {
         width: 1000px;
     }
     .section__description--para {
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        padding-left: 36px;
+        padding-right: 36px;
     }
 }
 
@@ -935,6 +936,5 @@ textarea:focus {
     }
     .section__description--para {
         font-size: 60px;
-        width: 600px;
     }
 }
