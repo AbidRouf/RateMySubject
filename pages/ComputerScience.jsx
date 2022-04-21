@@ -5,7 +5,6 @@ import { db } from '../firebase';
 import Optiondescription from '../components/classes/Optiondescription';
 import { PlusCircleIcon } from "@heroicons/react/outline";
 import Modal2 from '../components/Modal2';
-// import { PlusCircleIcon } from "react-icons/fa"
 
 let isModalOpen = false
 
@@ -60,7 +59,7 @@ function ComputerScience() {
           id={post.id}
           username={post.data().username}
           userImg={post.data().profileImg}
-          img={post.data().image}
+          // img={post.data().image}
           caption={post.data().caption}
         />
       ))}
