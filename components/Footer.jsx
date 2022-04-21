@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row row__column">
           <div className="footer__list">
 
-            <Link href="/">
+            <Link href="/Homepage">
               <a className="footer__link">Home</a>
             </Link>
 
