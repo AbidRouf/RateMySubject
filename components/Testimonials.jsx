@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Testimonials = () => {
+const Description = () => {
     return (
 
-        <section id="testimonials">
+        <section id="Description">
 
         <div className="section__description">
 
@@ -27,4 +27,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials;
+export default Description;

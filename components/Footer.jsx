@@ -1,21 +1,20 @@
 import React from "react";
 import Link from "next/link";
 
-const Footer = ({ toggleModal }) => {
+const Footer = () => {
   return (
-    <footer>
-      <div className="container">
+    <footer id="Footer">
+      <div className="footer__container">
         <div className="row row__column">
           <div className="footer__list">
 
-            <Link href="/">
+            <a href="/">
               <a className="footer__link">Home</a>
-            </Link>
+            </a>
 
-            <Link href="#">
+            <a href="#">
               <a className="footer__link">About Us</a>
-            </Link>
-
+            </a>
 
           </div>
           <div className="footer__copyright">Copyright &copy; 2021 RateMySubject</div>

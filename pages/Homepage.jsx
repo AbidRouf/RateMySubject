@@ -18,7 +18,7 @@ const Home = () => {
                 toggleModal={toggleModal}
             />
             <Testimonials />
-            <Popular />
+            {/* <Popular /> */}
         </main>
         </>
           
