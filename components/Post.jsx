@@ -8,7 +8,6 @@ import {
     PaperAirplaneIcon,
 } from "@heroicons/react/outline";
 
-// import Moment from 'react-moment';
 import { HeartIcon as HeartIconFilled } from "@heroicons/react/solid"
 import { useSession } from "next-auth/react";
 import { useEffect, useState, React } from "react";
