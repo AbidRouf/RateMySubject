@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="row row__column">
           <div className="footer__list">
 
-            <a href="/">
+            <Link href="/">
               <a className="footer__link">Home</a>
-            </a>
+            </Link>
 
-            <a href="#">
+            <Link href="#">
               <a className="footer__link">About Us</a>
-            </a>
+            </Link>
 
           </div>
           <div className="footer__copyright">Copyright &copy; 2021 RateMySubject</div>
